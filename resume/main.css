@@ -1,0 +1,20 @@
+body{
+  width: 700px;
+  margin: 0 auto;
+  font-family: "Annie Use Your Telescope";
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+.education{
+  margin-top: 17px;
+}
+.Item{
+  margin-bottom: 17px;
+}
+header h1, header div{
+  display: flex;
+  justify-content: center;
+}
