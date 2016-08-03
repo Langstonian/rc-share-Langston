@@ -120,13 +120,14 @@ article span{
 figcaption{
   font-weight: 600;
 }
-.firstarticle{
-  border-right: 1px solid black;
-  width: 200px;
+.firstarticle h2{
+  font-size: 30px;
 }
-.toppage{
-  border-bottom: 1px solid black;
-  width: 100%;
+.firstarticle{
+  float: left;
+}
+.secondarticle{
+  float: left;
 }
 .belowtitle{
   border-top: 1px solid black;
@@ -145,10 +146,13 @@ header p{
   display: flex;
   justify-content: center;
 }
+body{
+  margin: 56px
+}
 
-
-
-
+figure{
+  margin-left: 0;
+}
 
 
 /* ==========================================================================
