@@ -125,27 +125,35 @@ figcaption{
 }
 .firstArticle{
   float: left;
-  height: 610px;
+  height: 825px;
+  margin-right: 3px;
+  width: 350px;
 }
 .secondArticle{
   float: left;
   border-left: 1px solid black;
-  height: 610px;
+  height: 1000px;
+  margin-left: 10px;
+  width: 200px;
 }
 .thirdArticle{
   float: left;
   border-right: 1px solid black;
-  width: 631px;
+  width: 681px;
 }
 .fourthArticle{
   float: left;
+  margin-left: 4px;
 }
 .topPage{
   border-bottom: 1px solid black;
 }
-.secondArticle figure{
-  max-width: 100%;
+.contents{
+  margin-left: 7px;
 }
+.secondArticle figure img{
+  width: 600px;
+  }
 .secondArticle figure{
   max-width: 100%;
   margin-left: 7px;
