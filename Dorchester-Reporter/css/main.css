@@ -132,7 +132,7 @@ figcaption{
 .secondArticle{
   float: left;
   border-left: 1px solid black;
-  height: 1000px;
+  height: 900px;
   margin-left: 10px;
   width: 200px;
 }
@@ -151,13 +151,10 @@ figcaption{
 .contents{
   margin-left: 7px;
 }
-.secondArticle figure img{
-  width: 600px;
-  }
-.secondArticle figure{
-  max-width: 100%;
+.firstfigure{
+  width: 800px;
   margin-left: 7px;
-}
+  }
 .thirdArticle figure{
   float: right;
   margin-right: 6px;
@@ -189,7 +186,14 @@ body{
 figure{
   margin-left: 0;
 }
-
+.para{
+  width: 500px;
+}
+.divpara{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
 
 /* ==========================================================================
    Helper classes
