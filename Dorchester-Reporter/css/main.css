@@ -102,7 +102,7 @@ textarea {
    ========================================================================== */
    @font-face {
      font-family: "My Custom Font";
-     src: url(manuel_bucket.tff)
+     src: url(../manual_bucket.ttf);
 }
 article{
   font-family: 'Crimson Text', serif;
@@ -112,7 +112,7 @@ h1{
   display: flex;
   justify-content: center;
   font-size: 50px;
-  font-family: "My Custom Font";
+  font-family: "Corben";
 }
 article span{
   font-weight: 600;
@@ -180,7 +180,8 @@ header p{
   justify-content: center;
 }
 body{
-  margin: 56px
+  margin: 56px;
+  width: 1360px;
 }
 
 figure{
@@ -194,7 +195,9 @@ figure{
   justify-content: space-between;
   width: 1000px;
 }
-
+.secondArticle h2 {
+  width: 300px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
