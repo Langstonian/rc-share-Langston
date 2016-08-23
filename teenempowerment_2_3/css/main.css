@@ -298,17 +298,17 @@ display: none;
     margin-top: 0;
   }
 
-  .mainNavDropDown{
+  .stuff{
     list-style: none;
     text-align: center;
     display: none;
-  }
+  } 
 
-  .mainNavDropDown a{
+  .stuff a{
       width: 80%;
   }
 
-  .mainNavDropDown a:hover{
+  .stuff a:hover{
       background-color: black;
   }
 }
