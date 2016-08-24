@@ -298,11 +298,25 @@ display: none;
     margin-top: 0;
   }
 
-  .stuff{
+  .mainNavDropDown{
     list-style: none;
     text-align: center;
     display: none;
-  } 
+  }
+
+  .mainNavDropDown a{
+      width: 80%;
+  }
+
+  .mainNavDropDown a:hover{
+      background-color: black;
+  }
+
+  .stuff{
+    list-style: none;
+    text-align: center;
+    display: block;
+  }
 
   .stuff a{
       width: 80%;
@@ -311,6 +325,8 @@ display: none;
   .stuff a:hover{
       background-color: black;
   }
+
+
 }
 @media (min-width: 681px) {
   .navicon {
