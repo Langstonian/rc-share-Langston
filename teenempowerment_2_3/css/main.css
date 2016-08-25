@@ -1,3 +1,10 @@
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
 body{
   font-family: 'Oswald', sans-serif;
   margin: 10px
@@ -76,7 +83,7 @@ nav h4{
 .about{
   width: 50%;
   height: 20%;
-  padding: 70px 90px;
+  margin: 10% 1% 0% 1%;
 }
 
 .about h2{
@@ -156,7 +163,9 @@ nav h4{
 .white div p{
   color: white;
 }
-
+.shitty {
+  margin: 0;
+}
 .last{
   margin-top: -230px;
 }
@@ -273,9 +282,6 @@ text-align: center;
 .about{
 padding-top: -5px;
 }
-.aboutpic{
-display: none;
-}
 .bottomnav {
 display: none;
 }
@@ -283,6 +289,10 @@ display: none;
 display: none;
 }
 
+main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1438px;
 }
 
 @media (max-width: 680px) {
@@ -343,4 +353,13 @@ display: none;
 
 .turd {
   position: relative; top: 22px;
+}
+
+.fucker {
+  display: block;
+}
+
+@media (min-width: 681px) (max-width: 1195px){
+
+
 }
